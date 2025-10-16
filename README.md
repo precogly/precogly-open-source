@@ -1,5 +1,5 @@
 # 🦉 Precogly
-## Explainable · Trustworthy · Standards-Aligned Threat Modeling for Everyone
+## Explainable, Trustworthy and Standards-Aligned Threat Modeling 
 
 Threat modeling shouldn’t feel like paperwork.
 Precogly is an open-source, AI-powered platform that helps teams reason about security risks the way experienced AppSec engineers do — only faster and with full transparency.

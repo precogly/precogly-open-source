@@ -66,6 +66,5 @@ Security teams don't need more alerts — they need clarity. Precogly focuses on
 - Teams shipping AI-powered features who need faster threat modeling
 
 **Ways to engage:**
-- 💬 [Share your threat modeling challenges](GitHub Discussions link)
-- 📧 Interested in being a design partner? Email: vikramsnarayan@gmail.com
+- Interested in learning more? Email: vikramsnarayan@gmail.com
 - ⭐ Star the repo to follow progress

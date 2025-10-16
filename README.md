@@ -1,31 +1,71 @@
 # 🦉 Precogly
-## Explainable, Trustworthy and Standards-Aligned Threat Modeling 
+## Explainable. Trustworthy. High Signal-to-Noise Threat Modeling.
 
-Threat modeling shouldn’t feel like paperwork.
-Precogly is an open-source, AI-powered platform that helps teams reason about security risks the way experienced AppSec engineers do — only faster and with full transparency.
+> ⚠️ **Early Stage / Seeking Design Partners**  
+> Precogly is in active development. We're talking with AppSec leads to validate 
+> the approach while building the full system.
 
-At its heart, Precogly uses a network of agentic systems — small, focused agents powered by Large Language Models (LLMs) _and_ rules engines.
-Each agent takes on a clear role: one reads your architecture, another identifies STRIDE threats, another maps to CAPEC attack patterns, and another links to MITRE ATT&CK or NIST controls.
+## Why Precogly Exists
+
+AppSec leads keep telling us:
+
+> * Threat modeling is one of the highest ROI activities for our AppSec team.
+> * Ideally we'd run a threat model for every user story — especially now, with AI-driven features shipping fast.
+> * But we can't, because developers won't do threat modeling themselves, and our AppSec team is resource-constrained.
+> * We want to use AI, but…
+>   * How can we be sure the threat models are any good? (trustworthiness)
+>   * How can we know why some risks were ignored or prioritized? (explainability)
+
+Precogly was built to solve exactly these problems. It combines Large Language Models (LLMs) with deterministic rule engines to produce transparent, auditable, and high-signal threat models — giving AppSec teams both speed and confidence.
+
+## How It Works
+
+At its heart, Precogly uses a network of agentic systems — small, focused agents, each taking on a clear, testable role:
+
+* One reads your architecture.
+* Another identifies STRIDE threats.
+* Another maps to CAPEC attack patterns.
+* Another links to MITRE ATT&CK or NIST controls.
+
+Each agent's reasoning is recorded, so you always know why a particular threat or mitigation was generated.
 
 ## Core Principles
 
 ### Explainable
 
-You can always see why Precogly said what it said.
-Every threat, mitigation, and recommendation includes a reasoning trace — the frameworks, data, and rules that led to that conclusion.
+Every threat, mitigation, and recommendation includes a reasoning trace — the frameworks, data, and rules that led to that conclusion. No black boxes.
 
 ### Trustworthy
-Precogly grounds its insights in real-world security data like CVE, MITRE ATT&CK, CAPEC, and OWASP guidance.
-It pairs the creativity of LLMs with deterministic rule logic, producing results that are fast and credible - on par with what would be produced by a seasoned security expert.
 
-### Standards-Aligned
-Precogly speaks the same language as your security programs:
-STRIDE, CAPEC, MITRE ATT&CK and D3FEND, NIST 800-53, ISO 27001, TM-BOM etc. 
-That means instant compatibility with compliance tools, DevSecOps pipelines, and audit workflows.
+Grounded in real-world security data (CVE, CAPEC, MITRE ATT&CK, OWASP, and more). Precogly's hybrid of AI + rule logic ensures consistent, evidence-backed results.
 
-### Get Involved
+### High Signal-to-Noise
 
-Precogly is community-driven. Whether you’re into AppSec, AI safety, or developer tooling — contributions are welcome.
-Join the discussion, file issues, or help shape new agents and rules.
+Security teams don't need more alerts — they need clarity. Precogly focuses on signal, surfacing only threats that matter in your context.
 
-Contact vikramsnarayan@gmail.com for more info.
+
+## Current Status
+
+**In Progress:**
+- Orchestrator agent
+- Context-builder agent
+- STRIDE agents
+- CAPEC mapper agents
+- Mitigations agent
+
+**Seeking Input On:**
+- Does this approach resonate with your threat modeling challenges?
+- What integrations matter most? (Jira, GitHub, your IaC tools?)
+- What would "good output" look like for your team?
+
+## Get Involved
+
+**We're especially interested in talking with:**
+- AppSec leads who run threat modeling programs
+- Security engineers who've tried to automate threat modeling
+- Teams shipping AI-powered features who need faster threat modeling
+
+**Ways to engage:**
+- 💬 [Share your threat modeling challenges](GitHub Discussions link)
+- 📧 Interested in being a design partner? Email: vikramsnarayan@gmail.com
+- ⭐ Star the repo to follow progress

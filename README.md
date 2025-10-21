@@ -16,7 +16,7 @@ AppSec leads keep telling us:
 >   * How can we be sure the threat models are any good? (trustworthiness)
 >   * How can we know why some risks were ignored or prioritized? (explainability)
 
-Precogly was built to solve exactly these problems. It combines Large Language Models (LLMs) with deterministic rule engines to produce transparent, auditable, and high-signal threat models — giving AppSec teams both speed and confidence.
+Precogly is being built to solve exactly these problems. It combines Large Language Models (LLMs) with deterministic rule engines to produce transparent, auditable, and high-signal threat models — giving AppSec teams both speed and confidence.
 
 ## How It Works
 
